@@ -1,0 +1,108 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.main {
+    width: 450px;
+    display: flex;
+    padding: 70px 0;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#main-img {
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 10px;
+}
+.card {
+    background-color: white;
+    border-radius: 15px;
+}
+.heading {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 900;
+}
+.para {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+p {
+    line-height: 30px;
+}
+.ppbox {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+.price {
+    color: hsl(224, 23%, 55%);
+}
+.plan-price {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+.logoprice {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.change-button {
+    align-items: center;
+    padding-top: 10px;
+}
+.button-box {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.proceed-button {
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(166, 162, 162);
+}
+.proceed-button:hover {
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.671);
+}
+.cancel-button {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.abutton1:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.671);
+    cursor: pointer;
+}
+.abutton2 {
+    color: hsl(225, 100%, 98%);
+    text-decoration: none;
+}
+.abutton3 {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
